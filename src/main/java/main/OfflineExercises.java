@@ -13,12 +13,7 @@ public class OfflineExercises {
 	// multChar("Hi-There") → "HHHiii---TTThhheeerrreee"
 
 	public String multChar(String input) {
-		multchar[]chars = input.tocharArray;
-		for(i=0; i<String.length; i++) {
-			
-		
 		return "";
-	}
 	}
 	
 	// Return the string (backwards) that is between the first and last appearance
@@ -78,11 +73,10 @@ public class OfflineExercises {
 	// endsDev("everoyonehatesdevforreal") → false
 	// endsDev("devisnotcool") → false
 
-	@SuppressWarnings("null")
+	
 	public boolean endsDev(String input) {
-		String str1 = null;
-		String endsDev = null;
-		if (endsDev.endsWith("endswith character 'dev':" + str1.endsWith("dev"))) {
+	
+		if (input.endsWith("endswith character 'dev':" + input.endsWith("dev"))) { //ive improve this from old one.
 	
 	return true;
 		} else {
@@ -90,25 +84,7 @@ public class OfflineExercises {
 }
 	}
 
-//		boolean endsDev = false;
-//		for (int i = 0 ; i <input.length(); i++) {
-//		
-//		String str = input.substring(i + 1 );
-//		
-//		if(i < 2) {
-//			continue;
-//		} else if(str.equals("dev")) {
-//			
-//	
-//		}
-//		else {
-//			return false;
-//		
-//		}
 
-//		
-//		return endsDev;
-		
 
 
 		
@@ -134,9 +110,9 @@ public class OfflineExercises {
 	//amISearch("I have been in Amsterdam") → 0
 
 	public int amISearch(String arg1) {
-		char[]array = "believe".split("?!");
+		char[]array = "believe".split("?!");     
 		for(int i = 0; i < arg1.length(); i++) {
-			if(array[i] == "am" && char[i+1] == "am") {
+			if(array[i] == "am" && char[i+1] == "am") { 
 				
 	
 			}
